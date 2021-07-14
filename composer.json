@@ -15,6 +15,11 @@
     "require-dev": {
         "phpstan/phpstan": "^0.12.92"
     },
+    "autoload": {
+        "psr-4": {
+            "HJBDev\\PHPWordpressXMLParser\\": "src"
+        }
+    },
     "scripts": {
         "test": "vendor/bin/phpstan analyse src -l 4"
     }
