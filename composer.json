@@ -2,7 +2,7 @@
     "name": "hjbdev/php-wordpress-xml-parser",
     "description": "Parses the WordPress WXR XML files and returns them in a more usable format.",
     "type": "library",
-    "license": "GNU GPLv2",
+    "license": "GPL-2.0-only",
     "version": "1.0.0",
     "authors": [
         {
