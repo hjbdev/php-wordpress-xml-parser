@@ -1,0 +1,21 @@
+{
+    "name": "hjbdev/php-wordpress-xml-parser",
+    "description": "Parses the WordPress WXR XML files and returns them in a more usable format.",
+    "type": "library",
+    "license": "GNU GPLv2",
+    "authors": [
+        {
+            "name": "Harry",
+            "email": "harry@hjb.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.92"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpstan analyse src -l 4"
+    }
+}
